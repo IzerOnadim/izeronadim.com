@@ -1,0 +1,9 @@
+.NavBar {
+  padding: 0 1%;
+  display: flex;
+}
+
+.NavBarLink {
+  margin: 1% 2%;
+  color: rgb(37, 78, 201);
+}

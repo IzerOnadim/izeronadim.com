@@ -1,9 +1,11 @@
-import './App.css';
+import './Home.css';
 
-function App() {
+function Home() {
   return (
     <div className="Home">
       <header className="HomeHeader">
+        <h1>Izer Onadim</h1>
+        <p>I am a computer science student and software engineer.</p>
         <a
           className="GitHubLink"
           href="https://github.com/IzerOnadim"
@@ -17,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
