@@ -4,11 +4,12 @@ import LinkBar from './Links/LinkBar';
 function Home() {
   return (
     <div className="Home">
-      <header className="HomeHeader">
-        <h1>IZER ONADIM</h1>
-        <p className='aboutMe'>I'm a software engineer and computer science student at Imperial College London.</p>
-        <LinkBar />
-      </header>
+      <h1>IZER ONADIM</h1>
+      <p className='aboutMe'>I'm a software engineer and computer science student at Imperial College London.</p>
+      <LinkBar />
+      <a className='ProjectsButton' href='/projects'> 
+        VIEW PROJECTS
+      </a>
     </div>
   );
 }

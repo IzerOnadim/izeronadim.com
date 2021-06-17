@@ -1,18 +1,23 @@
 .Home {
   text-align: center;
-}
-
-.HomeHeader {
   background-color: #23272B;
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 10%;
+  padding: 10% 10% 0 10%;
 }
 
-.aboutMe {
-  font-weight: 550;
+.ProjectsButton {
+  margin-top: 2ex;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2ex;
+  color: white;
+}
+
+.ProjectsButton:hover {
+  opacity: 0.4;
 }
