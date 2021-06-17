@@ -1,21 +1,32 @@
 .LinkButton {
-  margin: 3%;
-  min-height: 5ex;
-  min-width: 10ex;
+  margin: 1.5%;
+  min-width: 20%;
+}
+
+.ButtonLink {
+  text-decoration: none;
 }
 
 .InnerButton {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3ex;
+  justify-content: center;
   color: white;
-  background-color: rgb(37, 78, 201);
   width: 100%;
   height: 100%;
-  border-radius: 1ex;
-  border: none;
+  display: flex;
+  flex-direction: column;
+  border: 0.01ex #23272B solid;
+  border-radius: 0.4ex;
 }
 
 .InnerButton:hover {
-  color: white;
-  background-color: rgb(20, 60, 180);
-  width: 100%;
-  height: 100%;
+  opacity: 0.45;
+  border: 0.01ex white solid;
+}
+
+.LinkImage {
+  border-radius: 0.4ex;
+  height: 10ex;
+  width: auto;
 }

@@ -1,6 +1,7 @@
 import './LinkButton.css';
 
-function LinkButton({ label, link }) {
+function LinkButton({ label, link, image, buttonStyle, imageStyle }) {
+
   return (
     <div className='LinkButton'>
       <a
@@ -9,9 +10,13 @@ function LinkButton({ label, link }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className='InnerButton' type='button'>
+        <div className='InnerButton' style={buttonStyle}>
+          { image 
+            ? <img className='LinkImage' style={imageStyle} src={image} alt='logo' />
+            : <></>
+          }
           {label}
-        </button>
+        </div>
       </a>
     </div>
   )
