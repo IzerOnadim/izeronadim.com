@@ -1,0 +1,21 @@
+.LinkButton {
+  margin: 3%;
+  min-height: 5ex;
+  min-width: 10ex;
+}
+
+.InnerButton {
+  color: white;
+  background-color: rgb(37, 78, 201);
+  width: 100%;
+  height: 100%;
+  border-radius: 1ex;
+  border: none;
+}
+
+.InnerButton:hover {
+  color: white;
+  background-color: rgb(20, 60, 180);
+  width: 100%;
+  height: 100%;
+}

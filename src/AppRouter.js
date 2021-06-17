@@ -5,7 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 function AppRouter() {
   return (
     <Router>
-      <NavBar />
+      {/* <NavBar /> */}
       <Route exact path='/' component={Home} />
     </Router>
   );
