@@ -11,7 +11,6 @@ import * as style from './LinkButtonStyles.js';
 function LinkBar() {
 
   return (
-    <>
     <div className='LinkBar'>
       <LinkButton
         label={'GITHUB'}
@@ -47,12 +46,6 @@ function LinkBar() {
         imageStyle={style.invertImageStyle}
       />
     </div>
-    <LinkButton 
-      label={'VIEW PROJECTS'}
-      link={'/projects'}
-      imageStyle={style.projectButtonStyle}
-    />
-    </>
   );
 }
 

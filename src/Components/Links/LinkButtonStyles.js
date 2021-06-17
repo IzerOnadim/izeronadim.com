@@ -25,7 +25,3 @@ export const stackOverflowImageStyle = {
 export const invertImageStyle = {
   '-webkit-filter': 'invert()'
 }
-
-export const projectButtonStyle = {
-  'backgroundColor': 'white'
-}

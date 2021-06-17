@@ -1,6 +1,6 @@
 .LinkButton {
   margin: 1.5%;
-  min-width: 20%;
+  min-width: 21%;
 }
 
 .ButtonLink {
@@ -9,7 +9,7 @@
 
 .InnerButton {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.3ex;
+  font-size: 1.2ex;
   justify-content: center;
   color: white;
   width: 100%;
