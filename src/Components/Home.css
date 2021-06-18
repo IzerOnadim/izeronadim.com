@@ -1,25 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Varela+Round&display=swap');
+
 .Home {
   text-align: center;
-  background-image: linear-gradient(to bottom right, #23272B, rgb(45, 50, 75));
+  background-image: linear-gradient(to bottom right, #1d2024, rgb(45, 50, 60));
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  font-family: 'Varela Round', sans-serif;
+  color: whitesmoke;
   padding: 10% 9% 0 9%;
 }
 
 .ProjectsButton {
-  border: 0.2ex white solid;
+  border: 0.2ex whitesmoke solid;
   border-radius: 0.3ex;
   padding: 0.5ex;
   margin-top: 1ex;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Varela Round', sans-serif;
   font-size: 2ex;
-  color: white;
+  color: whitesmoke;
   box-shadow: inset 0 0 0 0 rgb(224, 64, 6);
   transition: all 0.4s;
 }
@@ -28,4 +30,9 @@
   border-radius: 0.6ex;
   box-shadow: inset 300px 0 0 0 rgb(224, 64, 6);
   cursor: pointer;
+}
+
+.HomeTitle { 
+  font-size: 5ex;
+  font-family: 'Varela Round', sans-serif;
 }
