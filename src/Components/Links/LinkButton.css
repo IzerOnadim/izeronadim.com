@@ -1,6 +1,7 @@
 .LinkButton {
   margin: 1.5%;
   min-width: 21%;
+  min-height: 10vh;
 }
 
 .ButtonLink {
@@ -22,7 +23,7 @@
 
 .InnerButton:hover {
   opacity: 0.4;
-  border: 0.01ex white solid;
+  border: 0.01ex whitesmoke solid;
 }
 
 .LinkImage {

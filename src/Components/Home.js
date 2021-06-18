@@ -1,5 +1,6 @@
 import './Home.css';
 import LinkBar from './Links/LinkBar';
+import Button from '@material-ui/core/Button';
 
 function Home() {
   return (
