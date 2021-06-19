@@ -6,3 +6,26 @@
   padding: 5% 5% 5% 8%;
   color: whitesmoke;
 }
+
+.TopBar {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  width: 96%;
+  position: relative;
+  padding: 0;
+
+}
+
+@media (max-width: 800px) {
+  .TopBar {
+    width: 98%;
+  }
+}
+
+.HomeButton {
+  font-size: 2.5ex;
+  position: absolute;
+  right: 0;
+  top: 33%;
+}
