@@ -1,0 +1,52 @@
+.Project {
+  background-color: rgb(40, 40, 40);
+  width: 80%;
+  min-height: 35vh;
+  margin: 4% 4% 0 0;
+  align-self: center;
+  transition: all 0.2s;
+  border: 0.5ex whitesmoke solid;
+  border-radius: 1ex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.Project:hover {
+  opacity: 0.3;
+}
+
+.ViewProject {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0ex;
+}
+
+.ViewProject:hover {
+  opacity: 1;
+}
+
+.ViewProjectText {
+  position: absolute;
+  bottom: 1ex;
+  width: 100%;
+}
+
+
+@media (max-width: 1400px) {
+  .Project {
+    min-height: 30vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .Project {
+    flex-direction: column;
+    width: 96%;
+    min-height: 30vh;
+  }
+}
