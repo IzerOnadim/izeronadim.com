@@ -1,0 +1,8 @@
+.Portfolio {
+  background-image: linear-gradient(to bottom right, #1d2024, rgb(45, 50, 60));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5% 5% 8%;
+  color: whitesmoke;
+}
