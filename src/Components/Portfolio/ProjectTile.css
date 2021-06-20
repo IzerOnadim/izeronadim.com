@@ -1,4 +1,4 @@
-.Project {
+.ProjectTile {
   background-color: rgb(40, 40, 40);
   width: 45%;
   min-height: 35vh;
@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.Project:hover {
+.ProjectTile:hover {
   opacity: 0.3;
 }
 

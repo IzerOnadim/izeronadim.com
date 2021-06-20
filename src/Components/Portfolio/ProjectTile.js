@@ -1,13 +1,13 @@
-import './Project.css';
+import './ProjectTile.css';
 
-function Project(props) {
+function ProjectTile(props) {
 
   const projectImage = {
     'backgroundImage': props.image
   }
 
   return (
-    <div className='Project' style={projectImage}>
+    <div className='ProjectTile' style={projectImage}>
       <h2> {props.title} </h2>
       <div className='ViewProject'>
         <h3 className='ViewProjectText'> VIEW PROJECT </h3>
@@ -16,4 +16,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default ProjectTile;
