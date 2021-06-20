@@ -1,5 +1,5 @@
-import Button from './General/Button';
-import LinkBar from './Links/LinkBar';
+import Button from './general/Button';
+import LinkBar from './links/LinkBar';
 import './Home.css';
 
 function Home() {

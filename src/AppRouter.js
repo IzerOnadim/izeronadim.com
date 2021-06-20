@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Home from './Components/Home';
-import Portfolio from './Components/Portfolio/Portfolio';
+import Home from './components/Home';
+import Portfolio from './components/portfolio/Portfolio';
 
 function AppRouter() {
   return (

@@ -1,6 +1,6 @@
-import Button from '../General/Button';
+import Button from '../general/Button';
 import ProjectRow from './ProjectRow';
-import projects from './Projects';
+import projects from './projects';
 import './Portfolio.css';
 
 function Portfolio() {

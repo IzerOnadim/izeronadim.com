@@ -38,13 +38,13 @@
 
 
 @media (max-width: 1400px) {
-  .Project {
+  .ProjectTile {
     min-height: 30vh;
   }
 }
 
 @media (max-width: 800px) {
-  .Project {
+  .ProjectTile {
     flex-direction: column;
     width: 96%;
     min-height: 30vh;
