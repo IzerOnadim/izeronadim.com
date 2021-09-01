@@ -1,0 +1,22 @@
+.TitleBar {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  width: 96%;
+  position: relative;
+  padding: 0;
+
+}
+
+@media (max-width: 800px) {
+  .TitleBar {
+    width: 98%;
+  }
+}
+
+.HomeButton {
+  font-size: 2.5ex;
+  position: absolute;
+  right: 0;
+  top: 33%;
+}
