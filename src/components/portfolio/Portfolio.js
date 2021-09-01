@@ -1,7 +1,7 @@
-import Button from '../general/Button';
 import ProjectRow from './ProjectRow';
 import projects from './projects';
 import './Portfolio.css';
+import TitleBar from '../general/TitleBar';
 
 function Portfolio() {
 
@@ -14,13 +14,8 @@ function Portfolio() {
 
   return (
     <div className='Portfolio'>
-      <div className='TopBar'>
-        <h1> PORTFOLIO </h1>
-        <div className='HomeButton'>
-          <Button className='HomeButtonInner' label='Home' link ='/' />
-        </div>
-      </div>
-      <p> A selection of projects I've worked on recently. </p>
+      <TitleBar title='PORTFOLIO'/>
+      <p className='PortfolioText'> A selection of projects I've worked on recently. </p>
       { splitIntoRows(projects, 2).map(rowOfProjects => 
         <ProjectRow projects={rowOfProjects} />)
       }
