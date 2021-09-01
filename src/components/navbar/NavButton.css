@@ -1,0 +1,14 @@
+.NavButton {
+  display: flex;
+  text-align: center;
+  padding: 1ex;
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  font-size: 2ex;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.NavButton:hover {
+  background-color: lightgrey;
+}
