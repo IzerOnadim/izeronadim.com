@@ -24,7 +24,7 @@ function About() {
       <br/><br/>
 
       <div>
-        <Button label='VIEW CV' link='/cv.pdf' newLink={true}/>
+        <Button label='VIEW CV' link='/cv.pdf' newTab={true}/>
       </div>
     </div>
   );

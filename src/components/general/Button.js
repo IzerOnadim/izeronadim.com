@@ -1,14 +1,18 @@
 import './Button.css';
 
 function Button(props) {
+  let linkProps = {
+    className: 'GeneralButton', 
+    href: props.link, 
+  };
+
+  if (props.newTab) {
+    linkProps.target = "_blank";
+    linkProps.rel = "noreferrer";
+  }
+
   return (
-    <a 
-      className='GeneralButton' 
-      href={props.link} 
-      target={props.newLink ? "_blank" : ""}
-    > 
-      {props.label}
-    </a>
+    <a {...linkProps}> {props.label} </a>
   );
 }
 
