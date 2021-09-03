@@ -12,3 +12,9 @@
   color: whitesmoke;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .UnderDev {
+    min-height: 45px;
+  }
+}
